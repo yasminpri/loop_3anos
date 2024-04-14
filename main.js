@@ -16,3 +16,18 @@ const contadores = document.querySelectorAll(".contador");
 let tempoAtual = new Date();
 const tempoObjetivo1 = new Date("2024-10-20T00:00:00");
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+
+
+let loop1 = "";
+
+
+while (loop1 !== "Athletico Paranaense") {
+loop1 = prompt("Qual o melhor time do mundo?");
+
+  if (loop1 === "Athletico Paranaense") {
+    alert("É isso aí!");
+  } else {
+    alert(NÃO é isso. Tente novamente!);
+  }
+}
+
