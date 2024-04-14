@@ -1,9 +1,9 @@
 function verificarTime() {
     // Variável para armazenar a resposta do usuário
-    var respostaTime = prompt("Qual o melhor time? (Escreva Athlético PR)");
+    var respostaTime = prompt("Qual o melhor time?");
   
     // Verificar se a resposta é "Athlético PR"
-    if (respostaTime.toLowerCase() === "athlético pr") {
+    if (respostaTime.toLowerCase() === "Athlético PR") {
       alert("Isso mesmo! O Athlético PR é o melhor time!");
     } else {
       alert("Não é isso! Tente novamente.");
