@@ -18,16 +18,18 @@ const tempoObjetivo1 = new Date("2024-10-20T00:00:00");
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 
 
-let loop1 = "";
-
-
-while (loop1 !== "Athletico Paranaense") {
-loop1 = prompt("Qual o melhor time do mundo?");
-
-  if (loop1 === "Athletico Paranaense") {
-    alert("É isso aí!");
-  } else {
-    alert(NÃO é isso. Tente novamente!);
+function verificarTime() {
+    // Variável para armazenar a resposta do usuário
+    var respostaTime = prompt("Qual o melhor time? (Escreva Athlético PR)");
+  
+    // Verificar se a resposta é "Athlético PR"
+    if (respostaTime.toLowerCase() === "athlético pr") {
+      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    } else {
+      alert("Não é isso! Tente novamente.");
+    }
   }
-}
-
+  
+  // Chamada da função para iniciar o processo
+  verificarTime();
+  
