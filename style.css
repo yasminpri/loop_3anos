@@ -13,7 +13,7 @@ h1 {color: brown;
     animation: animacao-texto 5s infinite alternate;
 }
 
-.texto-animado {font-size: 80%;
+#texto-animado {font-size: 150%;
                 color:red;
             }
 
