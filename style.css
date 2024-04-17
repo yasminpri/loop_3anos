@@ -13,6 +13,10 @@ h1 {color: brown;
     animation: animacao-texto 5s infinite alternate;
 }
 
+#texto-animado {font-size: 80%;
+                color:red;
+            }
+
 @keyframes animacao-texto {
     0% {
         transform: translateX(20px);
