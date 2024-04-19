@@ -1,11 +1,10 @@
-
 function verificarTime() {
   
   var continuarPerguntando = true;
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Qual os melhor time?");
 
     
     if (respostaTime.toLowerCase() === "Athlético PR") {
@@ -16,8 +15,3 @@ function verificarTime() {
     }
   }
 }
-
-// Chamada da função para iniciar o processo
-verificarTime();
-
-  
