@@ -1,17 +1,12 @@
-function verificarTime() {
-  
-  var continuarPerguntando = true;
+let loop1 = "";
 
-  while (continuarPerguntando) {
-    
-    var respostaTime = prompt("Qual os melhor time?");
 
-    
-    if (respostaTime.toLowerCase() === "Athlético PR") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
-      continuarPerguntando = false; // Sai do loop após a resposta correta
-    } else {
-      alert("Não é isso! Tente novamente.");
-    }
+while (loop1 !== "Athletico Paranaense") {
+loop1 = prompt("Qual o melhor time do mundo?");
+
+  if (loop1 === "Athletico Paranaense") {
+    alert("É isso aí!");
+  } else {
+    alert(NÃO é isso. Tente novamente!);
   }
 }
